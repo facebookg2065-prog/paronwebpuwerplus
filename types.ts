@@ -17,4 +17,5 @@ export enum PageRoute {
   ABOUT = '/about',
   PRIVACY = '/privacy',
   TERMS = '/terms',
+  ADMIN = '/admin',
 }

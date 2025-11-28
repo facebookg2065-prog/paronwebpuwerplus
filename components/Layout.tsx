@@ -117,8 +117,9 @@ export const Layout: React.FC = () => {
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-500 text-xs">
-            &copy; 2025 POWER PLUS. جميع الحقوق محفوظة.
+          <div className="border-t border-gray-800 mt-8 pt-6 flex justify-between items-center text-gray-500 text-xs">
+            <span>&copy; 2025 POWER PLUS. جميع الحقوق محفوظة.</span>
+            <Link to="/admin" className="hover:text-primary transition-colors">Admin</Link>
           </div>
         </div>
       </footer>

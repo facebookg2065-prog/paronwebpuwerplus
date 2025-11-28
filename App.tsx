@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import ProductDetail from './pages/ProductDetail';
 import Sell from './pages/Sell';
+import Admin from './pages/Admin';
 import { Login, Register } from './pages/Auth';
 import { About, Privacy, Terms } from './pages/Static';
 
@@ -22,6 +23,7 @@ const App: React.FC = () => {
           <Route path="about" element={<About />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="terms" element={<Terms />} />
+          <Route path="admin" element={<Admin />} />
         </Route>
       </Routes>
     </Router>
